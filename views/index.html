@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<h2>Brewing Awesomeness!</h2>
+</body>
+<script type="application/javascript" src="/socket.io/socket.io.js"></script>
+<script type="application/javascript">
+    var socket = io();
+    socket.on('connect', function(){
+        console.log(socket);
+    })
+</script>
+</html>
